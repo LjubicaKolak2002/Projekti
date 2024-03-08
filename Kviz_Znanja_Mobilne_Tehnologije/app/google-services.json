@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "542264494378",
+    "project_id": "seminar-158b0",
+    "storage_bucket": "seminar-158b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542264494378:android:ffe21473e91ed66a3d3653",
+        "android_client_info": {
+          "package_name": "com.example.kvizznanja"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABobzX3mC7fMPXSWl7ZBkZEdS5IkK31iM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
