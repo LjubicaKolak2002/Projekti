@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pancake site</title>
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    </head>
+<body>
+   
+    <div class="navbar" id="navbar">
+        <a href="index.html"> PANCAKE HOUSE </a>
+        <a href="#about_title"> ABOUT </a>
+        <a href="#category_tag"> CATEGORIES </a> 
+        <a href="#contact_tag">CONTACT </a>
+        <a href="javascript:void(0);" class="icon" onclick="menuHamburger()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div><br><br>
+
+    <div class = "container">
+        <img src="./Pictures/start.webp" alt="Start" class = "start_image"/>
+        <div class="transitionText">
+            <div class="text"><p class = "welcomeText">Welcome to our Pancake House! </p>Our pancake house has been open since 2010, and in 2020 <br>it was renovated.
+                Today, in addition to a large selection of <br/> savory and sweet pancakes, it also offers a pleasant
+                ambience <br/>in a newly decorated space.
+                Explore our offer and look for <br/>your favorite!</div>
+          </div>
+
+    </div>
+    <div class="responsiveWelcome"> <h2>Welcome to our Pancake House!</h2><p> Pancake house is the best pancake house in town. Explore our <br> offer and look for your favorite pancakes!</p></div>
+    
+    <h3 id="about_title">ABOUT US</h3>
+    <div class = "aboutUs">    
+        <div class="about">
+        <p id = "aboutText" style="font-size: 18px;">Pancake house is the best pancake house in town.It is located in Vukovarska Street in Split<br>
+            At the beginning, we only offered simple and traditional recipes, because we didn't <br>have the courage to offer you something new and experimental.<br>
+            But from 2020 things are changing. Today we attract guests with a <br/>large selection of both sweet and savory pancakes.<br>
+            Another interesting thing is that you can make your own perfect pancake.
+            <br>This is especially useful for people with a "special" palate or "picky" palate.
+            <br>In any case, regardless of whether you belong to the group<br> of sweet or savory lovers, you should visit us!
+        </p>
+        </div>
+
+            <div class="container-slideshow">
+
+                <div class="mySlides">
+                <img src="./Pictures/pancake_house.jpg" style="width:50%; height:50%">
+                </div>
+                
+                <div class="mySlides fade">
+                <img src="./Pictures/house2.jpg" style="width:50%; height:30%">
+                </div>
+                
+                <div class="mySlides fade">
+                <img src="./Pictures/house3.jpg"  style="width:50%; height:30%">
+                </div>
+
+            
+            <a class="prev" onclick="plusSlides(-1)"> ❮ </a> 
+            <a class="next" onclick="plusSlides(1)"> ❯ </a> 
+            </div>
+
+
+            <div style="text-align:center" class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+       
+    
+    <h2 id = "category_tag"> CATEGORIES</h2>
+    <div class="row">
+            <div class="card">
+                <img src="./Pictures/sweet_pancake.jpg" alt="savoryPancake" >
+                
+                <h3>Sweet pancakes</h3><br/>
+                <div class = "buttons">
+                    <button onclick="clickFunction()" id="discoverButton">Discover</button><br/>
+                </div><br/>
+            </div>
+
+            <div class="card">
+                <img src="./Pictures/savory_pancake.jpg" alt="savoryPancake" >
+                
+                    <h3>Savory pancakes</h3><br/>
+                    <div class = "buttons">
+                        <button onclick="clickFunction2()" id="discoverButton">Discover</button>
+                    </div><br/>
+                   
+            </div>
+                              
+        <div class="card">
+            <div class="row">
+                <img src="./Pictures/nutella.png" alt="ownPancake1" class="ownPancake">
+                <img src="./Pictures/fruit.jpg" alt="ownPancake2" class="ownPancake">
+            </div>
+            <div class="row">
+                <img src="./Pictures/salty_additives.png" alt="ownPancake3" class="ownPancake">
+                <img src="./Pictures/sauces.jpg" alt="ownPancake4" class="ownPancake">
+            </div>
+
+            <h3>Make your perfect pancakes</h3>
+            <p class="text_make_pancake">Take a look at the ingredients on offer and make your favorite pancake! &#128523</p>
+        
+            <button data-modal-target="#modal" id="buttons_ingredients">Explore the ingredients</button><br/><br/>
+                <div class="modal" id="modal" style="display: block !important;">
+                        <div class="modal-header" style="background-color: white;">
+                        <div class="title"> INGREDIENTS</div>
+                        <button data-close-button class="close-button">&times;</button>
+                        </div>
+                        <div class="modal-body" style="max-height: calc(100vh - 200px);overflow-y: auto; background-color: white;font-family: Garamond, serif;">
+                            <div class="row">
+                                <div class="ingredients">
+                                        <h4>Sweet ingredients</h4>
+                                            Walnuts<br>
+                                            Hazelnuts <br>
+                                            Peanuts <br>
+                                            Coconut <br>
+                                            Biscuits <br>
+                                            Banana <br>
+                                            Cherries <br>
+                                            Raspberries <br>
+                                            Strawberries <br>
+                                            Vanilla pudding <br>
+                                            Chocolate pudding <br>
+                                            Oreo<br>
+                                            Kinder Bueno<br>
+                                            Snickers<br>
+                                            Twix <br>
+                                            M & M’s <br>
+                                            Ice cream <br>
+                                    </div>
+
+                                <div class="ingredients">
+                                    <h4>Savory ingredients</h4>
+                                    Ketchup<br>
+                                    Mayonnaise <br>
+                                    Tartar <br>
+                                    Mileram <br>
+                                    Greek yogurt <br>
+                                    Mascarpone <br>
+                                    Fresh cheese <br>
+                                    Cheese <br>
+                                    Mozzarella <br>
+                                    Kulen <br>
+                                    Tuna <br>
+                                    Eggs <br>
+                                    Tomato <br>
+                                    Cherry tomatoes <br>
+                                    Mexican sauce <br>
+                                    Ham <br>
+                                    Olives <br>
+                                </div>
+
+                                <div class="ingredients">
+                                    <h4>Stuffing</h4>
+                                    Nutella <br>
+                                    Lino lada <br>
+                                    Lino lada Duo <br>
+                                    Lino lada Gold <br>
+                                    Chocolate <br>
+                                    Peanut butter <br>
+                                    Marmalade <br>
+                                    Apple filling <br>
+                                    Cherry filling <br>
+                                </div>
+
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="overlay"></div>
+
+                    </span>
+                  </div>
+                  <br/>
+                <div class="hidden"></div>
+        
+            </div>
+        </div>
+
+        <h2 id="contact_tag">GET IN TOUCH</h2>
+
+        <p class = "touchText">
+            If you’ve been to our pancake house, you’ve seen - and tasted - what makes our customers come back for more. <br>
+            Friendly staff, pleasant ambience, delicious pancakes and gourmet coffee make us hard to resist!<br>
+            Stop by today and check us out!
+        </p>
+    
+        <button onclick="ShowContact()" class = "contactButton">Contact us</button><br/>
+
+        <div class="form" id="hideDiv" style="display:none">
+            <form>
+                <label for="name">Name:  </label>
+                <input type="text" id="name" name="name"  placeholder="Enter your name" required><br>
+    
+                <label for="email">Email:  </label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+    
+                <label for="phone">Telephone:  </label>
+                <input type="tel" id="phone" name="phone"placeholder="Enter your phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+    
+                <label for="subj">Subject:  </label>
+                <input type="text" id="subj" name="subject"placeholder="Enter subject" required><br>
+    
+                <label for="message">Message/Question:  </label>
+                <textarea type="text" id="message" name="message" placeholder="Write a message or ask us a question"></textarea><br>
+    
+                <label for="check">Spam check: What color is the sun (choose color)?  </label> 
+                <input type="color" name="color" placeholder="Choose color"/><br/><br/>
+                <button type="submit" class="formButton" style="border:0.16em solid #33cc33;text-shadow: 0 0.04em 0.04em #33cc33; color: #33cc33;">Submit</button>
+            
+                <button type="reset" class="formButton" style="border:0.16em solid #ff3333;text-shadow: 0 0.04em 0.04em #ff3333; color: #ff3333;">Delete</button>&nbsp;&nbsp;
+            </form>
+        </div>
+    
+    
+        <div class="footer">
+            <ul><br/>
+                <li id="work_time">Working hours </li><br/>
+                <li id="work_time">Monday to Sunday 10:00 - 24:00</li><br/>
+                <lli id="work_time"> Contact: pancakehouse@gmail.com</li>
+            </ul>
+            <ul >
+                <li class = "social"><b>Social</b></li>
+                <li class = "social">
+                
+                <a href="http://www.instagram.com"><img src = "./Pictures/instagram_white.png" width = "30px" height = "26" ></a>
+                <a href="http://www.facebook.com"><img src = "./Pictures/facebook_white.png" width = "30px" height = "26px" ></a>
+                <a href="http://www.twitter.com"><img src = "./Pictures/twitter_white.png" width = "30px" height = "26px" ><br/></a>
+            </ul>
+            
+        </div>
+        
+
+    <script src="index.js"></script>
+</body>
+</html>
