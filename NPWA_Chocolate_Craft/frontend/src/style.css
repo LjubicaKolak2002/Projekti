@@ -1,0 +1,745 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.homeTitle {
+  font-family:cursive;
+  font-size: 18px;
+  font-weight: 700;
+}
+.header {
+  text-align: center;
+  background-color:  #9fbfdf;
+  color: #fff;
+  padding: 15px;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.chocolatesDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.producerContainer {
+  margin: 40px 0; 
+  text-align: center;
+}
+
+.producerName {
+  font-size: 32px; 
+  margin-bottom: 20px; 
+}
+.chocolateInfo {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.chocolateImage {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px; 
+}
+.chocolatesRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.chocolateItem {
+  width: calc(20% - 90px); 
+  margin: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.chocolateName {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+strong {
+  font-weight: bold;
+  margin-bottom: 8px; 
+}
+
+button {
+  background-color:#3973ac;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px !important;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+/*LOGIN*/
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin: 0;
+  background-color: #f4f4f4; 
+}
+
+.registerLogin {
+  color:  #0056b3;
+}
+.loginTitle {
+  position: relative;
+  margin-bottom: 350px;
+  left: 49%;
+}
+
+.loginText {
+  text-align: center;
+  position: relative;
+  margin-left: 70px;
+  margin-top:  -150px;
+  
+}
+
+.login-form {
+  background-color: #ffffff; 
+  border: 1px solid #b4b4b4; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  width: 300px;
+  text-align: center; 
+  margin: auto; 
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.login-form button, .register-form button {
+  background-color:#5c85d6;
+  color: #ffffff; 
+  padding: 7px 35px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3; 
+}
+
+.login-form .error-message {
+  margin-top: 16px;
+  color: red;
+  text-align: center; 
+}
+
+
+
+/*REGISTER*/
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4; 
+}
+
+.registerTitle {
+  position: relative;
+  margin-bottom: 500px;
+  left: 49%;
+}
+
+.register-form {
+  background-color: #ffffff; 
+  border: 1px solid #b4b4b4; 
+  padding: 20px;
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center; 
+  margin: auto; 
+}
+
+.register-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+
+
+.register-form button:hover {
+  background-color: #0056b3; 
+}
+
+.register-form .error-message {
+  margin-top: 16px;
+  color: red; 
+}
+
+
+/*DETAILS*/
+.productDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.leftColumnDetails {
+  margin-right: 50px; 
+  margin-top: 50px;
+}
+
+.imageDetails {
+  max-width: 400px; 
+  border-radius: 8px;
+}
+
+.rightColumnDetails {
+  max-width: 500px;
+}
+
+.productName {
+  font-size: 22px;
+}
+
+.productInfo {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.productPrice {
+  font-size: 20px;
+  color: #0056b3;
+  font-weight: bold;
+}
+
+.cartButton {
+  background-color: #3973ac;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-left: 45%;
+}
+
+.cartButton:hover {
+  background-color: #0056b3;
+}
+
+
+/*PRODUCERS*/
+.producersHeading {
+  text-align: center;
+}
+
+.producersDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.oneProducerDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  text-align: center;
+}
+
+
+.producerLogoImage {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.editButton,
+.deleteButton {
+  background-color: #5c85d6;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.editButton:hover,
+.deleteButton:hover {
+  background-color: #0056b3;
+}
+
+.errorText {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+/*NAVBAR*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+}
+
+.navbar a {
+  margin-right: 20px;
+  padding: 10px;
+  color: black;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+
+.right-corner {
+  display: flex;
+  align-items: center;
+}
+
+.right-corner > * {
+  margin-left: 10px;
+}
+
+.userName {
+  position: relative;
+  margin-left: 990px;
+}
+
+.userName2 {
+  position: relative;
+  margin-left: 740px;
+}
+
+/* PRODUCERS */
+.producersHeading {
+  text-align: center;
+  color: #333;
+  position: relative;
+  margin-top: 80px;
+}
+
+
+.producersDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.oneProducerDiv {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.producerLogoImage {
+  width: 250px; 
+  height: 150px; 
+  margin-bottom: 10px;
+}
+
+.producerText {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.editIcon {
+  color: rgb(103, 103, 218);
+  font-size: 1.5em;
+
+}
+.deleteIcon {
+  color: #e95a5a;
+  font-size: 1.5em;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.iconLink {
+  margin-right: 10px; 
+}
+
+
+.deleteButton {
+  background-color: rgba(236, 232, 232, 0.1);
+}
+
+
+
+
+/*PRODUCER DETAILS*/
+.producerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.logoProducer {
+  width: 150px; 
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.producerDescription {
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.producerYear,
+.producerCountry {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+/*FAVOURITES*/
+.favourites-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.favourites-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.favourites-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.favourite-item {
+  flex: 0 0 calc(33.333% - 20px); 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product-image {
+  flex-shrink: 0;
+}
+
+.product-image img {
+  width: 80%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.product-details {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+.product-name {
+  font-size: 16px;
+  color: #333;
+}
+
+.deleteFavourite {
+  background-color: #3973ac;
+  color: #fff;
+  border: none;
+  padding: 8px 3px;
+  width: 120px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 0 0 8px 8px;
+  position: relative;
+  left: 25%;
+}
+
+
+.delete-button:hover {
+  background-color: #0056b3;
+}
+
+
+/*CART*/
+.cartContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cartTitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.cartItemsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
+
+.cartItemDetails {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.cartButtons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.cartItemImage img {
+  max-width: 150px; 
+  border-radius: 8px;
+}
+
+.cartSummary {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cartSummary button {
+  background-color: #3973ac;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.cartSummary button:hover {
+  background-color: #0056b3;
+}
+
+.cartPrice {
+  color: #0056b3;
+}
+
+/*ADDING FORM*/
+.addContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formContainer {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formContainer h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer input,
+.formContainer textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.formContainer button {
+  background-color: #3973ac;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.formContainer button:hover {
+  background-color: #0056b3;
+}
+
+.errorMessage {
+  color: red;
+  text-align: center;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+label + label {
+  margin-top: 20px;
+}
+
+.deleteButonIcon {
+  background-color:rgba(255, 255, 255, 0.1);
+}
+
+.deleteButonIcon:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.deleteIcon2 {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.deleteIcon2:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.usersList {
+  text-align: center;
+}
+
+.editUser {
+  position: relative;
+  margin-left: 30px;
+}
+
+.changePassword {
+  position: relative;
+  margin-left: 30px;
+}
+
+.editPaswword {
+  position: relative;
+  margin-left: 30px;
+  
+}
